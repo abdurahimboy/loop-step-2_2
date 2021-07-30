@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #2F2F2F;
+}
+.container {
+    max-width: 490px;
+    height: 570px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FDEC51;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px; 
+    position:relative;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(55px);
+}
+.title-top {
+    font-size: 19px;
+    margin-left: 35px;
+}
+.del {
+    margin-left: -40px;
+    color: #7E762A;
+    cursor: pointer;
+}
+.del:hover {
+    color: #000;
+}
+.settings-box {
+    position: absolute;
+    width: 490px;
+    top: 140px;
+    left: 55px;
+    background-color: #fff;
+    box-shadow: -5px 5px 15px rgba(66, 66, 66, 0.37);
+}
+.boy-foto-top {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.title-username {
+    color: #B4B4B4;
+    display: block;
+    margin-top: 65px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.text-username {
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    width: 430px;
+    color: #827F7F;
+}
+.name-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-name {
+    display: block;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #B4B4B4;
+}
+.text-first-name-left {
+    margin-left: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 15px;
+    width: 200px;
+    color: #827F7F;
+}
+.last-name-right {
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #B4B4B4;
+}
+.text-last-name-right {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 15px;
+    width: 230px;
+    color: #827F7F;
+}
+.email {
+    display: block;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #B4B4B4;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.email-two {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 5px;
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    width: 430px;
+    color: #827F7F;
+}
+.bio {
+    display: block;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #B4B4B4;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.bio-text {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-top: 5px;
+    margin-left: 30px;
+    font-size: 15px;
+    max-width: 430px;
+    max-height: 70px;
+    color: #827F7F;
+}
+.button-cancel {
+    position: absolute;
+    left: 300px;
+    transform: translateY(510px);
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #878043;
+}
+.button-cancel:hover {
+    color: #000;
+}
+.button-save {
+    position: absolute;
+    left: 400px;
+    transform: translateY(510px);
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #878043;
+}
+.button-save:hover {
+    color: #000;
+}

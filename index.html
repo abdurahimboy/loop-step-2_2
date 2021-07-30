@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work-14 loop 2-step 2</title>
+    <link rel="stylesheet" href="./style.css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-menu">
+            <span><h2 class="title-top">Account settings</h2></span>
+            <span><p class="del">X</p></span>
+        </div>
+        
+       <div class="settings-box">
+            <img src="./img/avatar.jpg" alt="boy foto" class="boy-foto-top">
+            <form action="https://echo.htmlacademy.ru" method="POST">
+
+                <label for="username-id" class="title-username">username</label>
+                <input type="text" placeholder="Enter your username" name="Username" id="username-id" maxlength="256" autocomplete="off" class="text-username" required>
+        
+        <div class="name-box">
+            <span>
+                <label for="first-name-id" class="first-name">first name</label>
+                <input type="text" placeholder="Enter your firdt name" name="First-name" id="first-name-id" maxlength="256" autocomplete="off" class="text-first-name-left" required></span>
+            <span>
+                <label for="last-name-id" class="last-name-right">last name</label><br>
+                <input type="text" placeholder="Enter your last name" name="last-name" id="last-name-id" maxlength="256" minlength="2" autocomplete="off" class="text-last-name-right" required></span>     
+        </div>
+                
+                
+                <label for="email-id"  class="email">email</label>
+                <input type="email" placeholder="Enter your email" name="Email" id="email-id" maxlength="256" class="email-two" required><br>
+                
+                <label for="bio-id" class="bio">bio</label>
+                <textarea name="bio-id" id="bio-id" placeholder="Tell us about your self" width="400px" hight="100px" rows="4" cols="50" class="bio-text" required>
+                </textarea>
+
+            </form>
+        </div> 
+        <button type="reset" class="button-cancel">Cancel</button>
+
+        <button type="submit" class="button-save">Save</button> 
+    </div>
+</body>
+</html>
