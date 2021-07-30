@@ -154,8 +154,8 @@ body {
 }
 .button-cancel {
     position: absolute;
-    left: 300px;
-    transform: translateY(510px);
+    left: 270px;
+    transform: translateY(100px);
     border: none;
     font-size: 18px;
     background-color: transparent;
@@ -167,8 +167,8 @@ body {
 }
 .button-save {
     position: absolute;
-    left: 400px;
-    transform: translateY(510px);
+    left: 350px;
+    transform: translateY(100px);
     border: none;
     font-size: 18px;
     background-color: transparent;
